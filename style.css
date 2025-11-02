@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #2b2d42;
+    display: flex;
+    padding: 50px 5%;
+    height: 100vh;
+}
+
+.menu-bar {
+    background-color: #8d99ae;
+    position: relative;
+    width: 100%;
+    border-radius: 50px; 
+    
+}
+
+/*#284b63?*/
+/*#3c6e71?*/
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 30px;
+    padding : 6px 30px;
+    color: #2b2d42;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 5 15px;
+
+}
+
+span {
+    color: #edf2f4;
+    font-weight: 600;
+}
+
+.nav-bar a{
+    color: #edf2f4;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5 15px;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.nav-bar a:hover{
+    background-color: #2b2d42;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.home {
+    color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    padding: 6px 70px ;
+    margin-top: -100px;
+}
+
+.home-detail h1{
+    font-size: 75px;
+    color: #2b2d42
+}
+
+.home-detail h1 span{
+    color: #ffffff;
+}
+
+.home-detail h2{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 35px;
+}
+
+.home-detail p{
+    font-size: 20px;
+    color: #edf2f4;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.btn-con{
+    margin-top: 35px;
+    margin-left: -10px;
+}
+
+.btn-con .btn{
+    text-decoration: none;
+    color: #edf2f4;
+    border: 2px solid #edf2f4;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.btn-con .btn:hover{
+    background-color: #2b2d42;
+    transition: 0.3s;
+}
+.social-media a{
+    color: #d9d9d9;
+    font-size: 34px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-media a:hover{
+    color: #2b2d42;
+    transition: 0.3s;
+}
+
+.home-img .img-box{
+    width: 28vw;
+    height: 28vw;
+    border-radius: 50%;
+    position: relative;
+}
+
+.home-img .img-box img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
